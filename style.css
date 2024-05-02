@@ -1,0 +1,158 @@
+.bd{
+    text-align: center;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-image: url('media/bgm.gif');
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color:  rgb(24, 182, 45);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+    
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 25px;
+    
+}
+.nav{
+    display: table;
+    margin: 0 auto;
+}
+.cadd:hover{
+    background-color: rgba(2, 14, 54, 0.2);
+    
+    
+}
+.csoust:hover{
+    background-color: rgba(2, 14, 54, 0.2);
+    
+}
+.cmult:hover{
+    background-color: rgba(2, 14, 54, 0.2);
+ 
+}
+.cdiv:hover{
+    background-color: rgba(2, 14, 54, 0.2);
+    
+}
+
+.center form{
+   padding: 5px;
+   border-top: 4px solid rgb(6, 179, 21);
+   border-left: 4px solid rgb(5, 165, 59) ;
+   border-bottom: 4px solid rgb(33, 190, 67);
+   border-right: 4px solid rgb(26, 158, 32);
+   border-radius: 20px;
+   box-shadow: 2px 2px 10px;
+   
+}
+#tableau {
+    background: white;
+    margin: 5px 30px 30px 30px;
+    padding-bottom: 10px;
+}
+
+div .p{ 
+   color: white;
+   font-size: 20px;
+   height: 25px;
+   background: white;
+   width: 500px;
+   padding: 10px;
+}
+div p{ 
+    height: 30px;
+    background: rgb(24, 182, 45);
+    margin: 0;
+    width: 500px;
+}
+.center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-image: url("media/bgcal.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+input{
+    height: 25px;
+    width: 480px;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    border-bottom:1px 2px black;
+    border-top:  black;
+    border-radius: 5px;
+}
+
+#boutton{
+color: white;
+height:40px;
+background:  rgb(24, 182, 45);
+border: 0;
+border-radius: 10px;
+font-weight: bolder;
+font-size: 25px;
+}
+#boutton:active{
+background: rgb(19, 7, 3);
+}
+#boutton:hover{
+    transform: scale(1.05);
+    }
+
+#rs{
+font-size: 24px;
+padding: px;
+margin-top: 10px;
+background-color: rgb(221, 217, 212);
+color: rgb(8, 146, 8);
+font-weight: bold;
+}
+.menu{
+    position: fixed;
+    left: 0;
+    width: 60px;
+    color: blue;
+}
+
+.boutons {
+
+    top:auto 0;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+.btn {
+    padding: 4px 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: .3s ease;
+    background-color: rgb(30, 201, 8);
+    color: rgb(231, 238, 231);
+
+}
+
+
+
+
